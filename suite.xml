@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GmailTests" verbose="5">
+    <test name="Send Letter Test" >
+        <parameter name="loginEmail" value="annrusnaktest12345" />
+        <parameter name="password" value="annatest123" />
+        <parameter name="sendToEmail" value="anjarusnak@i.ua" />
+        <parameter name="subject" value="T" />
+        <parameter name="body" value="T" />
+        <classes>
+            <class name="com.epam.lab.GmailTest" />
+        </classes>
+    </test>
+
+
+
+</suite>
